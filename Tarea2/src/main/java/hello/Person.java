@@ -17,7 +17,7 @@ public class Person {
 	private String firstName;
 	private String lastName;
 
-  @OneToOne(cascade = {CascadeType.ALL})
+  @OneToOne(cascade = CascadeType.ALL)
   private Address address;
 
 	public String getFirstName() {
