@@ -11,7 +11,16 @@ public class Address {
 	private long id;
 
   private String country;
-  
+  private String city;
+
+	public String getCity() {
+		return city;
+	}
+
+	public void setCity(String city) {
+		this.city = city;
+	}
+
 	public String getCountry() {
 		return country;
 	}
